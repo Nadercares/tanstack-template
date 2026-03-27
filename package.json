@@ -6,7 +6,8 @@
     "start": "vinxi start",
     "build": "vinxi build",
     "serve": "vite preview",
-    "dev": "vinxi dev"
+    "dev": "vinxi dev",
+    "setup:google": "node scripts/get-google-token.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
