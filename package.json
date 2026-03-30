@@ -6,7 +6,8 @@
     "start": "vinxi start",
     "build": "vinxi build",
     "serve": "vite preview",
-    "dev": "vinxi dev"
+    "dev": "vinxi dev",
+    "setup:google": "node scripts/get-google-token.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
@@ -22,6 +23,7 @@
     "@tanstack/store": "^0.7.0",
     "@types/uuid": "^10.0.0",
     "convex": "^1.20.0",
+    "googleapis": "^171.4.0",
     "highlight.js": "^11.11.1",
     "lucide-react": "^0.475.0",
     "postcss": "^8.5.2",
